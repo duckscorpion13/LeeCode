@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9BD8ACF22EE9A87007EC05F /* LongSubNoRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8ACE22EE9A87007EC05F /* LongSubNoRepeat.swift */; };
 		F9F6492322EAEF67000C0DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F6492222EAEF67000C0DF7 /* AppDelegate.swift */; };
 		F9F6492522EAEF67000C0DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F6492422EAEF67000C0DF7 /* ViewController.swift */; };
 		F9F6492822EAEF67000C0DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F6492622EAEF67000C0DF7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9BD8ACE22EE9A87007EC05F /* LongSubNoRepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongSubNoRepeat.swift; sourceTree = "<group>"; };
 		F9F6491F22EAEF67000C0DF7 /* LeeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F6492222EAEF67000C0DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F6492422EAEF67000C0DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			children = (
 				F9F6493422EAEFE5000C0DF7 /* TwoSum.swift */,
 				F9F6493722EAF80A000C0DF7 /* AddTwoNumbers.swift */,
+				F9BD8ACE22EE9A87007EC05F /* LongSubNoRepeat.swift */,
 			);
 			path = All;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				F9F6492522EAEF67000C0DF7 /* ViewController.swift in Sources */,
 				F9F6493822EAF80A000C0DF7 /* AddTwoNumbers.swift in Sources */,
+				F9BD8ACF22EE9A87007EC05F /* LongSubNoRepeat.swift in Sources */,
 				F9F6492322EAEF67000C0DF7 /* AppDelegate.swift in Sources */,
 				F9F6493522EAEFE5000C0DF7 /* TwoSum.swift in Sources */,
 			);

@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		let lon = LongSubNoRepeat()
+		print(lon.slidWindowOpt("hfdshfuhnhhhfsdgghdf"))
 		
 	}
 
