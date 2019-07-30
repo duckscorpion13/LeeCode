@@ -54,12 +54,12 @@ class TwoSum {
 	//	Space complexity : O(n)
 	func onePassHash(_ nums: [Int], _ target: Int) -> [Int] {
 		var dict = [Int : Int]()//[Value : Index]
-		for i in 0 ..< nums.count {
-			let complement = target - nums[i]
+		for (i, value) in nums.enumerated() {
+			let complement = target - value
 			if let index = dict[complement] {
 				return [index, i]
 			}
-			dict[nums[i]] = i
+			dict[value] = i
 		}
 		return [Int]()
 	}

@@ -13,8 +13,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
-		let lon = LongSubNoRepeat()
-		print(lon.slidWindowOpt("hfdshfuhnhhhfsdgghdf"))
+		let sum = TwoSum()
+		print(sum.onePassHash([1,3,5,7,9], 12))
+//		let lon = LongSubNoRepeat()
+//		print(lon.slidWindowOpt("hfdshfuhnhhhfsdgghdf"))
 		
 	}
 
