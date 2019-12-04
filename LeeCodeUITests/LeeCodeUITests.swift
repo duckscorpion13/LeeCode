@@ -32,8 +32,6 @@ class LeeCodeUITests: XCTestCase {
 
     func testExample() {
 		
-		
-		
 						
 	
 	

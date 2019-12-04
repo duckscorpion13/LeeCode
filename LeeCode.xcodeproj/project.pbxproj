@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F9BD8ACF22EE9A87007EC05F /* LongSubNoRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8ACE22EE9A87007EC05F /* LongSubNoRepeat.swift */; };
+		F9E6BBF32397A217001385FC /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E6BBF22397A217001385FC /* Recursive.swift */; };
 		F9F6492322EAEF67000C0DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F6492222EAEF67000C0DF7 /* AppDelegate.swift */; };
 		F9F6492522EAEF67000C0DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F6492422EAEF67000C0DF7 /* ViewController.swift */; };
 		F9F6492822EAEF67000C0DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F6492622EAEF67000C0DF7 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		F9BD8ACE22EE9A87007EC05F /* LongSubNoRepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongSubNoRepeat.swift; sourceTree = "<group>"; };
+		F9E6BBF22397A217001385FC /* Recursive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recursive.swift; sourceTree = "<group>"; };
 		F9F6491F22EAEF67000C0DF7 /* LeeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F6492222EAEF67000C0DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F6492422EAEF67000C0DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				F9F6492222EAEF67000C0DF7 /* AppDelegate.swift */,
+				F9E6BBF22397A217001385FC /* Recursive.swift */,
 				F9F6493622EAEFEC000C0DF7 /* All */,
 				F9F6492422EAEF67000C0DF7 /* ViewController.swift */,
 				F9F6492622EAEF67000C0DF7 /* Main.storyboard */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E6BBF32397A217001385FC /* Recursive.swift in Sources */,
 				F9F6492522EAEF67000C0DF7 /* ViewController.swift in Sources */,
 				F9F6493822EAF80A000C0DF7 /* AddTwoNumbers.swift in Sources */,
 				F9BD8ACF22EE9A87007EC05F /* LongSubNoRepeat.swift in Sources */,
